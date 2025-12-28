@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --dark-bg: #0a0e1a;
+    --dark-card: #141821;
+    --accent-cyan: #00d9ff;
+    --accent-blue: #4d7cfe;
+    --text-muted: #8892a6;
+}
+
+.bg-dark-bg {
+    background-color: var(--dark-bg);
+}
+
+.bg-dark-card {
+    background-color: var(--dark-card);
+}
+
+.text-text-muted {
+    color: var(--text-muted);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
